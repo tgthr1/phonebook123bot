@@ -325,7 +325,7 @@ def command(msg, tuser: TUser):
     else:
         bot.send_message(tuser.id, "Такая команда не найдена, пожалуйста...")
 create_main_buttons(tuser.id)
-restart_tuser_flags(tuser)")
+restart_tuser_flags(tuser)
 
 
 def check_phone_number(number):
