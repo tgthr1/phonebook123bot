@@ -323,7 +323,7 @@ def command(msg, tuser: TUser):
             create_main_buttons(tuser.id)
         restart_tuser_flags(tuser)
     else:
-        print("bot.send_message(tuser.id, "Такая команда не найдена, пожалуйста...")
+        bot.send_message(tuser.id, "Такая команда не найдена, пожалуйста...")
 create_main_buttons(tuser.id)
 restart_tuser_flags(tuser)")
 
